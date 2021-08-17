@@ -1,0 +1,26 @@
+#fondoR{
+  height: 33rem;
+  background-repeat: round;
+}
+#homeImg{
+  position: absolute;
+  padding: 32%;
+  top: 8rem;
+  background-repeat: no-repeat;
+  left: 13rem;
+  background-size: contain;
+}
+#description{
+  background-color: rgb(28,28,28);
+  margin-top: 4rem;
+}
+#description > div {
+padding-block: 3rem;
+  margin-inline: 12rem;
+}
+
+#stickImg{
+  background-attachment: fixed;
+  height: 20rem;
+  background-size: cover
+}

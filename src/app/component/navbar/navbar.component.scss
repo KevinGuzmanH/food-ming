@@ -3,3 +3,16 @@
   display: inline-grid;
   justify-content: center;
 }
+ul > li {
+  font-weight: 700;
+  margin-inline: 2rem;
+}
+#orderBtn{
+  font-weight: 700;
+}
+#orderBtn:hover{
+  color: white;
+}
+ul > li > a:hover{
+  color: darkorange;
+}
