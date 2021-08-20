@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 600px){
+  #order{
+    height: 66vh;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #downloadTxt{
+    padding-top: 87%;
+  }
+  #download{
+    padding-inline: 22px;
+    padding-block: 10px;
+  }
+  h3{
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 380px){
+  #downloadTxt{
+    padding-top: 94%;
+  }
+}
+
+@media only screen and (min-width: 601px){
+  #order{
+    height: 80vh;
+    background-size: cover;
+    background-size: 14rem;
+    background-repeat: no-repeat;
+    background-position-x: 3rem;
+    background-position-y: 3rem;
+  }
+  #download{
+    padding-inline: 32px;
+    padding-block: 1rem;
+  }
+  h3{
+    padding-top: 8rem;
+    text-align: center;
+  }
+}

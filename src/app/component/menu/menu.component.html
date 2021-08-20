@@ -1,0 +1,32 @@
+<div>
+  <div  class="container">
+    <div id="menu" class="row">
+
+      <div class="container text-center fs-2 menuOptions">FOOD</div>
+      <div *ngFor="let plato of food; let a = index" class="col-12 col-lg-4">
+        <div class="mt-4">
+          <span class="productCost">{{plato.price}}$</span>
+          <h5><b>{{plato.name}}</b></h5>
+          <span *ngIf="a == food.length; else op2">{{plato.ingredients}},</span>
+         <ng-template #op2><span>{{plato.ingredients}}</span></ng-template>
+        </div>
+      </div>
+
+      <div class="container text-center fs-2 menuOptions">Drinks</div>
+      <div *ngFor="let drink of driks" class="col-12 col-lg-4">
+        <div class="mt-4">
+          <span class="productCost">{{drink.price}}$</span>
+          <h5><b>{{drink.name}}</b></h5>
+        </div>
+      </div>
+
+      <div class="container text-center fs-2 mt-3 menuOptions">Alcoholic Drinks</div>
+      <div *ngFor="let drink of alcoholic" class="col-12 col-lg-4 mb-0 mb-lg-5">
+        <div class="mt-4">
+          <span class="productCost">{{drink.price}}$</span>
+          <h5><b>{{drink.name}}</b></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

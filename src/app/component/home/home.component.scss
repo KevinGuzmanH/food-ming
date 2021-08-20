@@ -1,26 +1,88 @@
 #fondoR{
-  height: 33rem;
+  height: 15rem;
   background-repeat: round;
 }
 #homeImg{
   position: absolute;
-  padding: 32%;
-  top: 8rem;
+  padding: 46%;
+  top: 7rem;
   background-repeat: no-repeat;
-  left: 13rem;
+  left: 1rem;
   background-size: contain;
 }
 #description{
   background-color: rgb(28,28,28);
   margin-top: 4rem;
+  padding-block: 2rem;
 }
-#description > div {
-padding-block: 3rem;
-  margin-inline: 12rem;
-}
-
 #stickImg{
   background-attachment: fixed;
-  height: 20rem;
+  height: 32rem;
   background-size: cover
+}
+#stickImg > div {
+  background-color: white;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  margin-inline: 1rem;
+  margin-top: 42rem;
+}
+#stickImg > div > p {
+  padding: 1rem;
+  font-size: larger;
+}
+#homeMenu{
+  background-size: cover;
+}
+.card{
+  margin-block: 40px;
+  margin-inline: 20px;
+  text-align: center;
+}
+.row{
+  margin: 0px;
+}
+.menu{
+  background-color: mintcream;
+}
+#reviews,#menuTitle > h2{
+  font-family: "Century Schoolbook";
+  font-weight: 800;
+}
+::ng-deep {
+  .p-rating .p-rating-icon.pi-star {
+    color: crimson;
+  }
+}
+#reviews2,#menuTitle > h4{
+  color: crimson;
+}
+.card-footer{
+  background-color: white;
+}
+@media only screen and (min-width: 600px){
+  #stickImg > div {
+    margin-inline: 23rem;
+    font-weight: 700;
+    position: absolute;
+    top: 57%;
+    padding: 1rem;
+    margin-top: 42rem;
+  }
+  #description > div {
+    padding-block: 3rem;
+  }
+  #homeImg{
+    position: absolute;
+    padding: 32%;
+    top: 8rem;
+    background-repeat: no-repeat;
+    left: 13rem;
+    background-size: contain;
+  }
+  #fondoR{
+    height: 33rem;
+    background-repeat: round;
+  }
 }

@@ -26,6 +26,8 @@
     "@nguniversal/express-engine": "^12.1.0",
     "bootstrap": "^5.1.0",
     "express": "^4.15.2",
+    "primeicons": "^4.1.0",
+    "primeng": "^12.1.0-rc.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
