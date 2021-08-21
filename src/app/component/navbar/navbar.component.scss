@@ -16,3 +16,33 @@ ul > li {
 ul > li > a:hover{
   color: darkorange;
 }
+
+.navbar-toggler{
+  position: relative;
+  right: -9rem;
+}
+@media only screen and (min-width: 601px){
+  .navbar-brand{
+    display: none;
+  }
+}
+::ng-deep{
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+  }
+}
+@media only screen and (max-width: 600px){
+  img{
+    width: 11rem;
+    position: absolute;
+  }
+  .navbar-brand{
+    width: 15rem;
+    left: 2rem;
+    top: 21px;
+  }
+  #pcImg{
+    display: none;
+  }
+}

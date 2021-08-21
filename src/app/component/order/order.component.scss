@@ -16,6 +16,15 @@
   h3{
     font-size: medium;
   }
+  #mobileMargin{
+    margin-top: 2rem;
+  }
+  ::ng-deep{
+  footer{
+  position: absolute;
+  bottom: 0rem;
+  }
+  }
 }
 @media only screen and (max-width: 380px){
   #downloadTxt{
