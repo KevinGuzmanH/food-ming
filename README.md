@@ -1,27 +1,25 @@
-# Aws
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+# Asian Food Restaurant
+A web application for showcasing an Asian food restaurant
 
-## Development server
+### Website
+https://food-ming.netlify.app/home
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Features
+- Display the menu items with their images and descriptions.
+- Show the restaurant position in a map. And all the contact information.
+- List of the food items with their prices.
+- Responsive design for a seamless experience on desktop and mobile devices.
+- Web to download the restaurant's app.
+- Display the users' reviews.
+- Beautifull design.
 
-## Code scaffolding
+# Contributing
+If you would like to contribute to the project, please fork the repository and make your changes. Once you have finished, you can submit a pull request for review. Please adhere to the following guidelines:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Use the Angular style guide for coding conventions.
+Write clear and concise commit messages.
+Ensure that your code is well-documented and easy to understand.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contact Information
+For any questions or issues, please open an issue in the GitHub repository or contact at kevinalternativa1@gmail.com 
