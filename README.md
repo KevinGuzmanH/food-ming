@@ -3,7 +3,9 @@
 A web application for showcasing an Asian food restaurant
 
 ### Website
-https://food-ming.netlify.app/home
+
+- https://food-ming.netlify.app/home
+- ![](https://github.com/KevinGuzmanH/food-ming/blob/master/food-ming-img.png)
 
 ## Features
 - Display the menu items with their images and descriptions.
@@ -13,6 +15,9 @@ https://food-ming.netlify.app/home
 - Web to download the restaurant's app.
 - Display the users' reviews.
 - Beautifull design.
+
+## Build with
+- Angular - CLI - Angular CLI 15.1.4 - [![Angular-cli version](https://img.shields.io/badge/Angular-15.1.4-red.svg)](https://angular.io/cli)
 
 # Contributing
 If you would like to contribute to the project, please fork the repository and make your changes. Once you have finished, you can submit a pull request for review. Please adhere to the following guidelines:
